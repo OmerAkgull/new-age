@@ -11,19 +11,34 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Kanit&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
 </head>
 
 <body>
     <nav class="navbar navbar-expand-lg navbar-light fixed-top shadow-sm">
         <div class="container px-5">
             <a class="navbar-brand fw-bold" href="index.html">Start Bootstrap</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="navbarNavAltMarkup"
+                aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span></button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav ms-auto">
+                    <ul class="navbar-nav ms-auto me-4 my-3 my-lg-0">
+                        <li class="nav-item"><a class="nav-link me-lg-3" href="#">Features</a></li>
+                        <li class="nav-item"><a class="nav-link me-lg-3" href="#">Download</a></li>
+                    </ul>
+                    <button type="button" class="btn btn-primary rounded-pill px-3 mb-2 mb-lg-0"><i
+                            class="bi bi-chat-square-text-fill me-1"></i>
+                        <span class="small">Send Feedback</span></button>
+                </div>
+            </div>
         </div>
     </nav>
-    <header class="bg-light py-5">
+    <header class="bg-light manualpadding">
         <div class="container px-5">
             <div class="row gx-5 align-items-center">
-                <div class="col-lg-6">
-                    <h1 class="fwn display-1">Showcase your app beautifully.</h1>
+                <div class="col-lg-6 mt-5">
+                    <h1 class="fwn display-1 lh-1">Showcase your app beautifully.</h1>
                     <p class="lead fw-normal text-muted mb-5">Launch your mobile app landing page faster with this free,
                         open source theme
                         from Start Bootstrap!</p>
@@ -39,7 +54,7 @@
                         </a>
                     </div>
                 </div>
-                <div class="col-lg-6 d-flex justify-content-center align-items-center">
+                <div class="col-lg-6 d-flex justify-content-center align-items-center mt-5">
                     <div class="img-wrapper">
                         <img class="img-fluid"
                             src="https://demo.onlyjs.com/exercises/bootstrap-mobile-app/assets/img/phone-screen.png"
@@ -61,7 +76,7 @@
             </div>
         </div>
     </section>
-    <section class="features">
+    <section class="features manualpadding">
         <div class="container px-5">
             <div class="row gx-5 align-items-center">
                 <div class="col-lg-4 d-flex justify-content-center align-items-center">
