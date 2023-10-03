@@ -58,3 +58,6 @@ nav div .navbar-brand:hover {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
+.gradient-bg {
+  background-image: linear-gradient(to right, #2937f0, #9f1ae2);
+}
