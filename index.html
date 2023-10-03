@@ -20,8 +20,32 @@
             <div class="modal-content">
                 <div class="modal-header bg-primary p-4">
                     <h5 class="modal-title font-alt text-white">Send feedback</h5>
-                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="close"></button>
+                    <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal"
+                        aria-label="close"></button>
                 </div>
+                <div class="modal-body">
+                    <form action="https://formsubmit.co/omerakgul1996@gmail.com" method="POST">
+                        <div class="mb-3">
+                            <input class="form-control p-3" type="text" id="name" name="name" placeholder="Full name"
+                                required>
+                        </div>
+                        <div class="mb-3">
+                            <input class="form-control p-3" type="email" id="email" name="email"
+                                placeholder="Email address" required>
+                        </div>
+                        <div class="mb-3">
+                            <input class="form-control p-3" type="phone" id="phone" name="phone"
+                                placeholder="Phone number" required>
+                        </div>
+                        <div>
+                            <textarea class="form-control" rows="7" id="message" name="message"
+                                placeholder="Message"></textarea>
+                        </div>
+                </div>
+                <div class="d-grid col-11 mx-auto mb-3">
+                    <button class="btn btn-primary btn-lg rounded-pill" type="submit">Submit</button>
+                </div>
+                </form>
             </div>
         </div>
     </div>
