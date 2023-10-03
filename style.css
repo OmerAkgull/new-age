@@ -52,3 +52,9 @@ nav div .navbar-brand:hover {
 .features_bi {
   font-size: 4rem;
 }
+.text-gradient {
+  background: -webkit-linear-gradient(#2937f0, #9f1ae2);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
