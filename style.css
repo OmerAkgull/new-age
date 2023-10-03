@@ -49,3 +49,6 @@ nav {
 nav div .navbar-brand:hover {
   color: blue !important;
 }
+.features_bi {
+  font-size: 4rem;
+}
