@@ -15,6 +15,16 @@
 </head>
 
 <body>
+    <div class="modal fade" id="modal" tabindex="-1" aria-labelledby="modalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header bg-primary p-4">
+                    <h5 class="modal-title font-alt text-white">Send feedback</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="close"></button>
+                </div>
+            </div>
+        </div>
+    </div>
     <nav class="navbar navbar-expand-lg navbar-light fixed-top shadow-sm">
         <div class="container px-5">
             <a class="navbar-brand fw-bold" href="index.html">Start Bootstrap</a>
@@ -24,11 +34,11 @@
             <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                 <div class="navbar-nav ms-auto">
                     <ul class="navbar-nav ms-auto me-4 my-3 my-lg-0">
-                        <li class="nav-item"><a class="nav-link me-lg-3" href="#">Features</a></li>
-                        <li class="nav-item"><a class="nav-link me-lg-3" href="#">Download</a></li>
+                        <li class="nav-item"><a class="nav-link me-lg-3" href="#features">Features</a></li>
+                        <li class="nav-item"><a class="nav-link me-lg-3" href="#download">Download</a></li>
                     </ul>
-                    <button type="button" class="btn btn-primary rounded-pill px-3 mb-2 mb-lg-0"><i
-                            class="bi bi-chat-square-text-fill me-1"></i>
+                    <button type="button" class="btn btn-primary rounded-pill px-3 mb-2 mb-lg-0" data-bs-toggle="modal"
+                        data-bs-target="#modal"><i class="bi bi-chat-square-text-fill me-1"></i>
                         <span class="small">Send Feedback</span></button>
                 </div>
             </div>
@@ -76,7 +86,7 @@
             </div>
         </div>
     </section>
-    <section class="features manualpadding">
+    <section class="features manualpadding" id="features">
         <div class="container px-5">
             <div class="row gx-5 align-items-center">
                 <div class="col-lg-4 d-flex justify-content-center align-items-center order-lg-0">
@@ -148,7 +158,7 @@
             </div>
         </div>
     </section>
-    <section class="bg-img">
+    <section class="bg-img" id="download">
         <div class="container px-5">
             <div class="content">
                 <h2 class="text-white display-1 lh-1 mb-4">Stop waiting.<br> Start building.</h2>
