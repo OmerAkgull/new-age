@@ -75,3 +75,10 @@ nav div .navbar-brand:hover {
   width: 300px;
   height: auto;
 }
+#circle_small {
+  bottom: 0px;
+  right: 0px;
+  top: 100px;
+  left: 360px;
+  width: 12px;
+}
