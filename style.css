@@ -82,3 +82,10 @@ nav div .navbar-brand:hover {
   left: 360px;
   width: 12px;
 }
+#circle_small_2 {
+  width: 12px;
+  right: 0px;
+  top: 450px;
+  bottom: 0px;
+  left: -80px;
+}
