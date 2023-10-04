@@ -69,3 +69,9 @@ nav div .navbar-brand:hover {
   width: 400px;
   height: auto;
 }
+#circle_2 {
+  bottom: 110px;
+  left: -110px;
+  width: 300px;
+  height: auto;
+}
