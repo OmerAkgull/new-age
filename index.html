@@ -90,14 +90,20 @@
                 </div>
                 <div class="col-lg-6 d-flex justify-content-center align-items-center mt-5">
                     <div class="position-relative">
-                        <div class="img-wrapper z-1" style="position: relative; z-index: 1;">
+                        <div class="img-wrapper z-1 position-relative">
                             <img class="img-fluid"
                                 src="https://demo.onlyjs.com/exercises/bootstrap-mobile-app/assets/img/phone-screen.png"
                                 alt="phone-screen">
                         </div>
-                        <svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg" class="position-absolute"
-                            id="circle" style="z-index: 0;">
-                            <circle cx="50" cy="50" r="50" />
+                        <svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg" class="position-absolute z-0"
+                            id="circle">
+                            <defs>
+                                <linearGradient id="gradient" gradientTransform="rotate(45)">
+                                    <stop offset="0%" style="stop-color: #2937f0; stop-opacity: 1" />
+                                    <stop offset="100%" style="stop-color: #9f1ae2; stop-opacity: 1" />
+                                </linearGradient>
+                            </defs>
+                            <circle cx="50" cy="50" r="50" fill="url(#gradient)" />
                         </svg>
                     </div>
                 </div>
