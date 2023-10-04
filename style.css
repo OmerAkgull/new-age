@@ -103,10 +103,8 @@ nav div .navbar-brand:hover {
   left: -100px;
   width: 19px;
 }
-.dropdown_text{
-  font-size: 15px;
-}
 .navbar-toggler {
-  max-width: 8rem;
-  max-height: 4rem;
+  font-size: 0.875rem;
+  padding: 0.75rem 1rem;
+  color: #212529;
 }
