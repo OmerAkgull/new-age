@@ -89,3 +89,17 @@ nav div .navbar-brand:hover {
   bottom: 0px;
   left: -80px;
 }
+.shape-2 {
+  width: 19px;
+  top: 40px;
+  bottom: 0px;
+  left: 315px;
+  right: 0px;
+}
+.shape-1 {
+  top: 450px;
+  bottom: 0px;
+  right: 0px;
+  left: -100px;
+  width: 19px;
+}
