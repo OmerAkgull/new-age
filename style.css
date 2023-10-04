@@ -61,3 +61,9 @@ nav div .navbar-brand:hover {
 .gradient-bg {
   background-image: linear-gradient(to right, #2937f0, #9f1ae2);
 }
+#circle {
+  top: 130px;
+  left: 0px;
+  right: 0px;
+  bottom: 0px;
+}
