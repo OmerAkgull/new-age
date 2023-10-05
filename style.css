@@ -7,6 +7,16 @@
 .img-wrapper {
   max-width: 17rem;
 }
+@media screen and (max-width: 772px) {
+  .img-wrapper {
+    max-width: 15rem;
+  }
+}
+@media screen and (max-width: 576px) {
+  .img-wrapper {
+    max-width: 13rem;
+  }
+}
 .manualpadding {
   padding: 5rem 0;
 }
@@ -125,6 +135,35 @@ nav div .navbar-brand:hover {
     display: none;
   }
 }
+@media screen and (max-width: 772px) {
+  #circle {
+    top: 65px;
+    right: 0px;
+    left: -55px;
+    bottom: 0px;
+    width: 350px;
+  }
+}
+@media screen and (max-width: 992px) {
+  #circle_2 {
+    top: 100px;
+    bottom: 0px;
+    left: -65px;
+    right: 0px;
+    width: 400px;
+    height: auto;
+  }
+}
+ @media screen and (max-width: 772px){
+  #circle_2 {
+    top: 75px;
+    bottom: 0px;
+    left: -55px;
+    right: 0px;
+    width: 350px;
+    height: auto;
+  }
+ } 
 .rounded-circle {
   margin-left: 5rem;
 }
