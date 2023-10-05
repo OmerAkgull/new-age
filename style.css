@@ -125,3 +125,6 @@ nav div .navbar-brand:hover {
     display: none;
   }
 }
+.rounded-circle {
+  margin-left: 5rem;
+}
