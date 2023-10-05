@@ -120,3 +120,8 @@ nav div .navbar-brand:hover {
     z-index: -1;
   }
 }
+@media screen and (max-width: 576px) {
+  #circle {
+    display: none;
+  }
+}
